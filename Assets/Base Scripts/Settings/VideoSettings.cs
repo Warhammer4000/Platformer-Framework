@@ -6,7 +6,18 @@ using UnityEngine;
 public class VideoSettings
 {
     public FullScreenMode FullScreenMode;
-    public Resolution Resolution;
+
+    [SerializeField] private Vector2Int ScreenResolution;
+
+    public Resolution Resolution
+    {
+        get => new Resolution {height = ScreenResolution.x, width = ScreenResolution .y};
+        set
+        {
+            ScreenResolution.x = value.height;
+            ScreenResolution.y = value.width;
+        }
+    }
 
 }
 
