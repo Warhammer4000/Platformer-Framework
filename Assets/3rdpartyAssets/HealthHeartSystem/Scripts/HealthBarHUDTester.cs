@@ -24,15 +24,7 @@ public class HealthBarHUDTester : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            Hurt(1);
-        }
-
-        if (Input.GetButtonDown("Fire2"))
-        {
-            Heal(5);
-        }
+        
     }
 
 }

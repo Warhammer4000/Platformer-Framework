@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Railgun Shooter/Scenes/Testbed2.unity
+    guid: 2c870c71ff7cb60499a002ebdaca2805
+  - enabled: 1
+    path: Assets/Railgun Shooter/Scenes/PlayerHUD.unity
+    guid: 8570c4f4ab2232d44969b1c310371fec
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: a69950c23d1ce9d4dacaed52cf3e08eb,
       type: 2}
